@@ -1,6 +1,10 @@
 body {
     text-align: center;
 }
+.ad-bannertop1 {
+    width: 320px;
+    margin: 0 auto;
+}
 #textbox {
     border: 2px solid black;
     font-size: 40px;
