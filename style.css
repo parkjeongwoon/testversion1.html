@@ -1,0 +1,80 @@
+
+    body {
+        font-family: sans-serif;
+        text-align: center;
+    }
+    #textbox {
+        border-radius: 20px;
+        border-color: black;
+        font-size: 35px;
+        text-align: right;
+        padding-right: 5px;
+        margin-top: 20px;
+        width: 100%; max-width: 500px;
+    }
+    #btn {
+        border-radius: 20px;
+        border-color: black;
+        padding : 15px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        width: 100%; max-width: 500px;
+    }
+    .ad-middle {
+        width: 320px;
+        margin-right:auto; margin-left:auto;
+        margin-bottom: 13px;
+    }
+    .linktext {
+        border-radius: 20px;
+        border: solid black;
+        font-size: 25px;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+    }
+    .ad-bottom1 {
+        width: 300px;
+        margin-right:auto; margin-left:auto;
+        margin-top: 15px;
+    }
+    .ad-bottom2 {
+        width: 300px;
+        margin-right:auto; margin-left:auto;
+    }
+    .ad-bottom34 {
+        width: 250px;
+        margin-right:auto; margin-left:auto;
+    }
+    .table {
+        margin-right:auto; margin-left:auto;
+        font-size: 20px;
+        width: 100%; max-width: 500px;
+        margin-bottom: 10px;
+    }
+    .table td {
+        text-align: right;
+    }
+    .text-bottom {
+        margin-top: 15px;
+    }
+@media(max-width:800px) {
+    body {
+        background-color: floralwhite;
+    }
+    #textbox {
+        margin-top: 5px;
+        width: 90%;
+    }
+    #btn {
+        margin-bottom: 5px;
+        width: 90%;
+    }
+    .linktext {
+       background-color: white;
+    }
+    .table {
+        font-size: 15px;
+        width: 90%;
+    }
+}
