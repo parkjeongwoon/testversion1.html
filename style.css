@@ -1,0 +1,92 @@
+
+    body {
+        font-family: sans-serif;
+        text-align: center;
+    }
+    #textbox {
+        border-radius: 20px;
+        border-color: black;
+        font-size: 35px;
+        text-align: right;
+        padding-right: 5px;
+        margin-top: 5px;
+        width: 100%; max-width: 500px;
+    }
+    #btn {
+        border-radius: 20px;
+        border-color: black;
+        padding: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%; max-width: 500px;
+    }
+    .ad-01 {
+        width: 320px;
+        margin-right:auto; margin-left:auto;
+    }
+    .ad-02 {
+        width: 320px;
+        margin-right:auto; margin-left:auto;
+        margin-bottom: 15px;
+    }
+    .linktext {
+        border-radius: 20px;
+        border: solid black;
+        font-size: 25px;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+    }
+    .ad-03 {
+        width: 320px;
+        margin-right:auto; margin-left:auto;
+        margin-top: 15px;
+    }
+    .ad-04 {
+        width: 320px;
+        margin-right:auto; margin-left:auto;
+    }
+    .ad-0506 {
+        width: 300px;
+        margin-right:auto; margin-left:auto;
+    }
+    .ad-0708 {
+        width: 250px;
+        margin-right:auto; margin-left:auto;
+    }
+    .ad-0910 {
+        width: 160px;
+        margin-right:auto; margin-left:auto;
+    }
+    .table {
+        margin-right:auto; margin-left:auto;
+        font-size: 20px;
+        width: 100%; max-width: 500px;
+        margin-bottom: 10px;
+    }
+    .table td {
+        text-align: right;
+    }
+    .text-bottom {
+        margin-top: 15px;
+    }
+@media(max-width:800px) {
+    body {
+        background-color: floralwhite;
+    }
+    #textbox {
+        margin-top: 5px;
+        width: 90%;
+    }
+    #btn {
+        margin-bottom: 5px;
+        width: 90%;
+    }
+    .linktext {
+       background-color: white;
+    }
+    .table {
+        font-size: 15px;
+        width: 90%;
+    }
+}
