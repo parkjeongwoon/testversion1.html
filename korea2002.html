@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>월소득 등급 테스트</title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            function addcomma(obj) { 
+                obj.value = comma(uncomma(obj.value)); 
+            } 
+            function comma(str) { //콤마 입력
+                str = String(str); 
+                return str.replace(/(\d)(?=(?:\d{3})+(?!\d))/g, '$1,'); 
+            } 
+            function uncomma(str) { //콤마 제거
+                str = String(str); 
+                return str.replace(/[^\d]+/g, ''); 
+            }
+
+            function grade(){
+                var soldier;
+                soldier=document.military.freedom.value;
+                soldier=parseInt(soldier.replace(/,/g, ''));
+                if(isNaN(soldier)){
+                alert("월급을 입력해 주세요!");
+                return;
+                }
+                var position="10";
+                if(soldier>=8370758){
+                    position="1";
+                } else if(soldier>=6500000){
+                    position="2";
+                } else if(soldier>=5303820){
+                    position="3";
+                } else if(soldier>=4430303){
+                    position="4";
+                } else if(soldier>=3639540){
+                    position="5";
+                } else if(soldier>=2992062){
+                    position="6";
+                } else if(soldier>=2366090){
+                    position="7";
+                } else if(soldier>=1735290){
+                    position="8";
+                } else if(soldier>=1027030){
+                    position="9";
+                }
+                alert("당신의 월소득은 상위" + position + "등급 입니다!" );
+            }
+        </script>
+    </head>
+    <body>
+        <h1 class="title"><a href="index.html" class="title-link">jasangrade.tk</a></h1>
+        <div id="layout">
+            <div id="layout-left">
+                <div class="head-out">
+                    <a href="index.html" class="title-link">
+                        <span>목록</span>
+                    </a>
+                </div>
+                <div>
+                    <div class="list-title-out">
+                        <span class="list-title-in"><통계자료></span>
+                    </div>
+                    <ul class="list">
+                        <li>
+                            <div>
+                                <a href="korea1001.html" class="list-link">
+                                    <span>순자산 등급표</span>
+                                </a>
+                            </div>    
+                        </li>
+                        <li>
+                            <div>
+                                <a href="korea1002.html" class="list-link">
+                                    <span>월소득 등급표 (1인이상)</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="korea1003.html" class="list-link">
+                                    <span>월소득 등급표 (2인이상)</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="korea1004.html" class="list-link">
+                                    <span>월소비 등급표 (1인이상)</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="korea1005.html" class="list-link">
+                                    <span>월소비 등급표 (2인이상)</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="korea1006.html" class="list-link">
+                                    <span>월흑자액 등급표 (2인이상)</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="list-title-out">
+                        <span class="list-title-in"><등급 테스트></span>
+                    </div>
+                    <ul class="list">
+                        <li>
+                            <div>
+                                <a href="korea2001.html" class="list-link">
+                                    <span>순자산 등급 테스트</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="korea2002.html" class="list-link" id="active">
+                                    <span>월소득 등급 테스트 (전국,1인이상)</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="korea2003.html" class="list-link">
+                                    <span>월소득 등급 테스트 (전국,2인이상)</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="layout-right">
+                <h2>월소득 등급 테스트 (1인이상, 전국가구)</h2>
+                <h3>가계 월소득 등급 확인하기</h3>
+                <h4>소득 = 경상소득 (근로소득, 사업소득, 재산소득, 이전소득) + 비경상소득<br>
+                    월소득(세전) 입력 후 조회하기 클릭 !</h4>
+                <form name="military">
+                    <input type="text" name="freedom" onkeyup="addcomma(this)" onkeypress="if(event.keyCode==13){grade();}" id="textbox" maxlength="18" placeholder="월소득을 입력하세요" autofocus><br>
+                    <input type="button" value="조회하기" onClick="grade()" id="btn">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

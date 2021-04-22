@@ -1,0 +1,157 @@
+    body {
+        font-family: sans-serif;
+        font-size: 20px;
+        margin: 0;
+    }
+    .title {
+        border-bottom: 1px solid gainsboro;
+        font-size: 50px;
+        text-align: center;
+        padding: 50px;
+        margin: 0;
+        background-color: floralwhite;
+    }
+    .title-link {
+        text-decoration: none;
+        color: black;
+    }
+    #layout {
+        display: grid;
+        grid-template-columns: 280px 1fr;
+        margin-left: 100px;
+        margin-right: 100px;
+        border: 1px solid gainsboro;
+        border-top: none;
+    }
+    /* layout-left */
+    #layout #layout-left {
+        border-right: 1px solid gainsboro;
+        padding-left: 0;
+    }
+    #layout #layout-left .head-out {
+        text-align: center;
+        background-color:  rgb(240, 240, 240);
+    }
+    #layout #layout-left .list-title-out {
+        padding-top: 10px;
+    }
+    #layout #layout-left .list-title-in {
+        padding-left: 5px;
+    }
+    #layout #layout-left .list {
+        list-style: none;
+        padding : 0;
+        margin : 0;
+    }
+    #layout #layout-left .list .list-link {
+        text-decoration: none;
+        color: black;
+        padding-left: 5px;
+    }
+    #layout #layout-left .list a:hover {
+        display: block;
+        background-color: lightsteelblue;
+    }
+    #layout #layout-left #active {
+        display: block;
+        background-color: thistle;
+    }
+    /* layout-right */
+    #layout #layout-right {
+        padding: 20px;
+        text-align: center;
+    }
+    #layout #layout-right .index-p1 {
+        display: block;
+        margin-left: auto; margin-right: auto;
+        width: 70%;
+    }
+    /* layout-right-100n */
+    #layout #layout-right .tableyear {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 15px;
+    }
+    #layout #layout-right .table1001 {
+        border-collapse: collapse;
+        margin-left: auto; margin-right: auto;
+        line-height: 1.3;
+        margin: 10px;
+        display: inline;
+    }
+    #layout #layout-right .table1001 caption {
+        font-weight: bold;
+        padding: 7px;
+    }
+    #layout #layout-right .table1001 thead th {
+        border: 1px solid gray;
+        padding: 7px;
+        background-color: lightblue;
+        font-size: 18px;
+        width: 110px; min-width: 80px;
+    }
+    #layout #layout-right .table1001 tbody th {
+        border: 1px solid gray;
+        padding: 7px;
+        width: 100px;
+        background-color: lightcyan;
+        font-size: 18px;
+        width: 110px; min-width: 80px;
+    }
+    #layout #layout-right .table1001 tbody td {
+        border: 1px solid gray;
+        padding: 7px;
+        text-align: right;
+        width: 250px;
+    }
+    /* layout-right-200n */
+    #layout #layout-right #textbox {
+        border-radius: 20px;
+        border-color: black;
+        font-size: 35px;
+        text-align: right;
+        padding-right: 5px;
+        margin-top: 5px;
+        width: 100%; max-width: 500px;
+    }
+    #layout #layout-right #btn {
+        border: none;
+        border-radius: 20px;
+        padding: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%; max-width: 500px;
+        background-color: lightgray;
+        font-size: 15px;
+    }    
+@media(max-width:1024px) {
+    #layout {
+        margin: 0;
+    }
+}
+@media(max-width:767px) {
+    #layout {
+        display: block;
+        border: none;
+        margin: 0;
+    }
+}
+/*
+@media(max-width:800px) {
+    #textbox {
+        margin-top: 5px;
+        width: 90%;
+    }
+    #btn {
+        margin-bottom: 5px;
+        width: 90%;
+    }
+    .linktext {
+       background-color: white;
+    }
+    .table {
+        font-size: 15px;
+        width: 90%;
+    }
+}
+*/
