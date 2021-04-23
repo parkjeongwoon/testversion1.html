@@ -124,9 +124,12 @@
         font-size: 20px;
         background-color: lightblue;
     }
-    .layout .layout-right .ad {
+    .layout .layout-right .ad01 {
         width: 300px;
-        margin-left: auto; margin-right: auto;
+        padding-top: 5px;
+    }
+    .layout .layout-right .ad02 {
+        width: 300px;
     }
 @media (min-width: 1025px) and (max-width: 1280px) {
     /* layout */
