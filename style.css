@@ -172,14 +172,16 @@
     /* layout-right-100n */
     .layout .layout-right .table100n {
         display: block;
-        width: 90%;
-        font-size: 14px;
+        width: 95%;
+        font-size: 13px;
     }
     .layout .layout-right .table100n thead th {
         padding: 3px;
+        font-size: 10px;
     }
     .layout .layout-right .table100n tbody th {
         padding: 3px;
+        font-size: 10px;
     }
     .layout .layout-right .table100n tbody td {
         padding: 3px;
