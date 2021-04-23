@@ -176,15 +176,15 @@
         font-size: 12px;
     }
     .layout .layout-right .table100n thead th {
-        padding: 2px;
+        padding: 1px;
         font-size: 10px;
     }
     .layout .layout-right .table100n tbody th {
-        padding: 2px;
+        padding: 1px;
         font-size: 10px;
     }
     .layout .layout-right .table100n tbody td {
-        padding: 2px;
+        padding: 3px;
     }
     /* layout-right-200n */
     .test200n {
