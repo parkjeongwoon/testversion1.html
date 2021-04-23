@@ -51,6 +51,7 @@
     .layout .layout-left .list a:hover {
         display: block;
         background-color: lightcyan;
+        transition: ease 1s;
     }
     .layout .layout-left #active {
         display: block;
@@ -163,20 +164,20 @@
     }
     /* layout-right-100n */
     .layout .layout-right .table100n {
-        font-size: 15px;
+        font-size: 14px;
     }
     .layout .layout-right .table100n thead th {
-        font-size: 13px;
-        padding: 5px;
+        font-size: 12px;
+        padding: 3px;
     }
     .layout .layout-right .table100n tbody th {
-        font-size: 13px;
-        padding: 5px;
+        font-size: 12px;
+        padding: 3px;
         width: 55px;
     }
     .layout .layout-right .table100n tbody td {
-        width: 130px;
-        padding: 5px;
+        width: 125px;
+        padding: 3px;
     }
 }
 /*
