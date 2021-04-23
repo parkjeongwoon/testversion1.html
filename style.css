@@ -129,6 +129,10 @@
     .layout {
         margin: 0;
     }
+    /* layout-left */
+    .layout .layout-left {
+        border-right: none;
+    }
 }
 @media (min-width: 768px) and (max-width:1024px) {
     /* layout */
@@ -136,6 +140,10 @@
         display: block;
         border: none;
         margin: 0;
+    }
+    /* layout-left */
+    .layout .layout-left {
+        border-right: none;
     }
     /* layout-right-100n */
     .layout .layout-right .table100n thead th {
@@ -155,6 +163,10 @@
         border: none;
         margin: 0;
     }
+    /* layout-left */
+    .layout .layout-left {
+        border-right: none;
+    }
     /* layout-right-100n */
     .layout .layout-right .table100n thead th {
         min-width: 50px;
@@ -163,8 +175,8 @@
         min-width: 50px;
     }
     .layout .layout-right .table100n tbody td {
-        max-width: 110px;
-    } 
+        max-width: 100px;
+    }
 }
 /*
 @media(max-width:800px) {
