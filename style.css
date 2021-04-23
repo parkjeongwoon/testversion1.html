@@ -129,7 +129,6 @@
     .layout {
         margin: 0;
     }
-    /* layout-left */
 }
 @media (min-width: 768px) and (max-width:1024px) {
     /* layout */
@@ -165,14 +164,16 @@
         border-right: none;
     }
     /* layout-right-100n */
-    .layout .layout-right table {
-        margin: 0;
+    .layout .layout-right .table100n {
+        font-size: 15px;
     }
     .layout .layout-right .table100n thead th {
         min-width: 50px;
+        font-size: 13px;
     }
     .layout .layout-right .table100n tbody th {
         min-width: 50px;
+        font-size: 13px;
     }
     .layout .layout-right .table100n tbody td {
         max-width: 100px;
