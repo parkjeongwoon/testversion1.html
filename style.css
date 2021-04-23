@@ -109,8 +109,7 @@
         background-color: lightcyan;
         margin-left: auto; margin-right: auto;
         width: 70%;
-        padding-top: 150px; padding-bottom: 150px;
-        border: 1px solid lightblue;
+        padding-top: 193px; padding-bottom: 150px;
     }
     .layout .layout-right #textbox {
         border-color: gainsboro;
@@ -149,6 +148,7 @@
         border-right: none;
         border-bottom: 1px solid gainsboro;
     }
+    /* layout-right */
     /* layout-right-100n */
     .layout .layout-right .table100n tbody td {
         width: 160px;
@@ -169,27 +169,26 @@
         border-right: none;
         border-bottom: 1px solid gainsboro;
     }
+    /* layout-right */
     /* layout-right-100n */
     .layout .layout-right .table100n {
-        font-size: 13px;
+        font-size: 14px;
+        display: block;
+        width: 95%;
     }
     .layout .layout-right .table100n thead th {
-        font-size: 11px;
         padding: 3px;
     }
     .layout .layout-right .table100n tbody th {
-        font-size: 11px;
         padding: 3px;
-        width: 60px;
     }
     .layout .layout-right .table100n tbody td {
         padding: 3px;
-        width: 100px;
     }
     /* layout-right-200n */
     .test200n {
-        margin-left: auto; margin-right: auto;
+        background-color: none;
         width: 100%;
-        padding-top: 50px; padding-bottom: 50px;
+        padding-top: 93px; padding-bottom: 50px;
     }
 }
