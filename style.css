@@ -183,6 +183,11 @@
         padding: 3px;
     }
 }
+@media(max-width: 480px) {
+    .layout .layout-right .table100n tbody td {
+        width: 100px;
+    }
+}
 /*
 @media(max-width:800px) {
     #textbox {
