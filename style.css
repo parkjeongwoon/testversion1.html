@@ -152,6 +152,9 @@
     }
 }
 @media(max-width:767px) {
+    body {
+        font-size: 17px;
+    }
     /* layout */
     .layout {
         display: block;
@@ -167,16 +170,16 @@
         font-size: 14px;
     }
     .layout .layout-right .table100n thead th {
-        font-size: 12px;
+        font-size: 11px;
         padding: 3px;
     }
     .layout .layout-right .table100n tbody th {
-        font-size: 12px;
+        font-size: 11px;
         padding: 3px;
         width: 55px;
     }
     .layout .layout-right .table100n tbody td {
-        width: 125px;
+        width: 120px;
         padding: 3px;
     }
 }
