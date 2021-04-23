@@ -147,10 +147,12 @@
                 <h3>가계 월소득 등급 확인하기</h3>
                 <h4>소득 = 경상소득 (근로소득, 사업소득, 재산소득, 이전소득) + 비경상소득<br>
                     월소득(세전) 입력 후 조회하기 클릭 !</h4>
-                <form name="military">
-                    <input type="text" name="freedom" onkeyup="addcomma(this)" onkeypress="if(event.keyCode==13){grade();}" id="textbox" maxlength="18" placeholder="월소득을 입력하세요" autofocus><br>
-                    <input type="button" value="조회하기" onClick="grade()" id="btn">
-                </form>
+                <div class="test200n">
+                    <form name="military">
+                        <input type="text" name="freedom" onkeyup="addcomma(this)" onkeypress="if(event.keyCode==13){grade();}" id="textbox" maxlength="18" placeholder="월소득을 입력하세요" autofocus><br>
+                        <input type="button" value="조회하기" onClick="grade()" id="btn">
+                    </form>
+                </div>
             </div>
         </div>
     </body>
