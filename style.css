@@ -62,6 +62,18 @@
     .layout .layout-right {
         text-align: center;
     }
+    .layout .layout-right .noteWidth1 {
+        width: 760px;
+        margin-left: auto; margin-right: auto;
+    }
+    .layout .layout-right .noteWidth2 {
+        width: 675px;
+        margin-left: auto; margin-right: auto;
+    }
+    .layout .layout-right .note {
+        margin-top: 5px;
+        text-align: left;
+    }
     .layout .layout-right .index-p1 {
         display: block;
         margin-left: auto; margin-right: auto;
@@ -71,7 +83,7 @@
     .layout .layout-right .tableyear {
         font-size: 30px;
         font-weight: bold;
-        padding-top: 20px;
+        padding-top: 10px;
     }
     .layout .layout-right .table100n {
         border-collapse: collapse;
@@ -89,6 +101,11 @@
         padding: 7px;
         background-color: lightblue;
         font-size: 15px;
+    }
+    .layout .layout-right .table100n thead #strong {
+        font-weight: bold;
+        text-decoration: underline; text-underline-position: under;
+        font-size: 17px;
     }
     .layout .layout-right .table100n tbody th {
         border: 1px solid gray;
@@ -148,6 +165,12 @@
     }
     /* layout-right */
     /* layout-right-100n */
+    .layout .layout-right .noteWidth1 {
+        width: 700px;
+    }
+    .layout .layout-right .noteWidth2 {
+        width: 610px;
+    }
     .layout .layout-right .table100n tbody td {
         width: 160px;
     }
@@ -166,6 +189,12 @@
     }
     /* layout-right */
     /* layout-right-100n */
+    .layout .layout-right .noteWidth1 {
+        width: 700px;
+    }
+    .layout .layout-right .noteWidth2 {
+        width: 600px;
+    }
     .layout .layout-right .table100n tbody td {
         width: 160px;
     }
@@ -187,6 +216,12 @@
     }
     /* layout-right */
     /* layout-right-100n */
+    .layout .layout-right .noteWidth1 {
+        width: 98%;
+    }
+    .layout .layout-right .noteWidth2 {
+        width: 98%;
+    }
     .layout .layout-right .table100n {
         display: block;
         width: 98%;
@@ -195,6 +230,11 @@
     .layout .layout-right .table100n thead th {
         padding: 3px;
         font-size: 10px;
+    }
+    .layout .layout-right .table100n thead #strong {
+        font-weight: bold;
+        text-decoration: underline; text-underline-position: under;
+        font-size: 12px;
     }
     .layout .layout-right .table100n tbody th {
         padding: 0;

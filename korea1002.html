@@ -46,35 +46,21 @@
                         <li>
                             <div>
                                 <a href="korea1002.html" class="list-link" id="active">
-                                    <span>월소득 10분위 (1인 기준)</span>
+                                    <span>월소득 10분위</span>
                                 </a>
                             </div>
                         </li>
                         <li>
                             <div>
                                 <a href="korea1003.html" class="list-link">
-                                    <span>월소득 10분위 (2인 기준)</span>
+                                    <span>월소비 10분위</span>
                                 </a>
                             </div>
                         </li>
                         <li>
                             <div>
                                 <a href="korea1004.html" class="list-link">
-                                    <span>월소비 10분위 (1인 기준)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="korea1005.html" class="list-link">
-                                    <span>월소비 10분위 (2인 기준)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="korea1006.html" class="list-link">
-                                    <span>월흑자액 10분위 (2인 기준)</span>
+                                    <span>월흑자액 10분위</span>
                                 </a>
                             </div>
                         </li>
@@ -100,28 +86,14 @@
                         <li>
                             <div>
                                 <a href="korea2003.html" class="list-link">
-                                    <span>월소득 등급 테스트 (전국, 1인이상 가구)</span>
+                                    <span>월소득 등급 테스트 (1인이상 가구)</span>
                                 </a>
                             </div>
                         </li>
                         <li>
                             <div>
                                 <a href="korea2004.html" class="list-link">
-                                    <span>월소득 등급 테스트 (전국, 2인이상 가구)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="korea2005.html" class="list-link">
-                                    <span>월소득 등급 테스트 (도시, 1인이상 가구)</span>
-                                </a>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <a href="korea2006.html" class="list-link">
-                                    <span>월소득 등급 테스트 (도시, 2인이상 가구)</span>
+                                    <span>월소득 등급 테스트 (2인이상 가구)</span>
                                 </a>
                             </div>
                         </li>
@@ -130,7 +102,11 @@
             </div>
             <div class="layout-right">
             <!--가계동향조사 : 가구당 월평균 분위경계값 (1인이상)-->
+            <!--가계동향조사 : 가구당 월평균 분위경계값 및 적자가구비율 (2인이상)-->
                 <div>
+                    <div class="noteWidth2">
+                        <div class="note">*P10 : 상위 90%의 금액</div>
+                    </div>
                     <div class="tableyear">
                         2020년
                     </div>
@@ -138,7 +114,7 @@
                         <caption>월소득 분위 경계값 (출처 : 통계청)</caption>
                         <thead>
                             <tr>
-                                <th rowspan="2">분위별</th> <th colspan="3">월소득 (1인이상 가구)</th>
+                                <th rowspan="2">분위별</th> <th colspan="3">월소득 (<span id="strong">1인이상</span> 가구)</th>
                             </tr>
                             <tr>
                                 <th>전국</th> <th>도시</th> <th>도시근로자</th>
@@ -174,6 +150,46 @@
                             </tr>
                         </tbody>
                     </table>
+                    <table class="table100n">
+                        <caption>월소득 분위 경계값 (출처 : 통계청)</caption>
+                        <thead>
+                            <tr>
+                                <th rowspan="2">분위별</th> <th colspan="3">월소득 (<span id="strong">2인이상</span> 가구)</th>
+                            </tr>
+                            <tr>
+                                <th>전국</th> <th>도시</th> <th>도시근로자</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>P10</th> <td>1,791,150</td> <td>1,879,167</td> <td>2,646,000</td>
+                            </tr>
+                            <tr>
+                                <th>P20</th> <td>2,652,186</td> <td>2,726,514</td> <td>3,396,745</td>
+                            </tr>
+                            <tr>
+                                <th>P30</th> <td>3,347,240</td> <td>3,416,667</td> <td>4,028,920</td>
+                            </tr>
+                            <tr>
+                                <th>P40</th> <td>4,008,868</td> <td>4,044,558</td> <td>4,713,000</td>
+                            </tr>
+                            <tr>
+                                <th>P50</th> <td>4,712,967</td> <td>4,768,117</td> <td>5,382,322</td>
+                            </tr>
+                            <tr>
+                                <th>P60</th> <td>5,419,155</td> <td>5,495,235</td> <td>6,123,575</td>
+                            </tr>
+                            <tr>
+                                <th>P70</th> <td>6,338,158</td> <td>6,389,167</td> <td>6,975,927</td>
+                            </tr>
+                            <tr>
+                                <th>P80</th> <td>7,435,290</td> <td>7,564,107</td> <td>8,126,990</td>
+                            </tr>
+                            <tr>
+                                <th>P90</th> <td>9,319,890</td> <td>9,469,835</td> <td>10,064,293</td>
+                            </tr>
+                        </tbody>
+                    </table>
                     <div class="tableyear">
                         2019년
                     </div>
@@ -181,7 +197,7 @@
                         <caption>월소득 분위 경계값 (출처 : 통계청)</caption>
                         <thead>
                             <tr>
-                                <th rowspan="2">분위별</th> <th colspan="3">월소득 (1인이상 가구)</th>
+                                <th rowspan="2">분위별</th> <th colspan="3">월소득 (<span id="strong">1인이상</span> 가구)</th>
                             </tr>
                             <tr>
                                 <th>전국</th> <th>도시</th> <th>도시근로자</th>
@@ -214,6 +230,46 @@
                             </tr>
                             <tr>
                                 <th>P90</th> <td>8,064,286</td> <td>8,191,143</td> <td>8,910,787</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table100n">
+                        <caption>월소득 분위 경계값 (출처 : 통계청)</caption>
+                        <thead>
+                            <tr>
+                                <th rowspan="2">분위별</th> <th colspan="3">월소득 (<span id="strong">2인이상</span> 가구)</th>
+                            </tr>
+                            <tr>
+                                <th>전국</th> <th>도시</th> <th>도시근로자</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>P10</th> <td>1,721,375</td> <td>1,775,995</td> <td>2,470,000</td>
+                            </tr>
+                            <tr>
+                                <th>P20</th> <td>2,580,000</td> <td>2,675,419</td> <td>3,283,333</td>
+                            </tr>
+                            <tr>
+                                <th>P30</th> <td>3,321,490</td> <td>3,386,975</td> <td>3,903,834</td>
+                            </tr>
+                            <tr>
+                                <th>P40</th> <td>3,961,940</td> <td>4,000,000</td> <td>4,521,786</td>
+                            </tr>
+                            <tr>
+                                <th>P50</th> <td>4,593,520</td> <td>4,630,000</td> <td>5,146,100</td>
+                            </tr>
+                            <tr>
+                                <th>P60</th> <td>5,301,000</td> <td>5,349,833</td> <td>5,817,500</td>
+                            </tr>
+                            <tr>
+                                <th>P70</th> <td>6,026,429</td> <td>6,100,000</td> <td>6,626,443</td>
+                            </tr>
+                            <tr>
+                                <th>P80</th> <td>7,104,067</td> <td>7,176,445</td> <td>7,756,491</td>
+                            </tr>
+                            <tr>
+                                <th>P90</th> <td>9,017,087</td> <td>9,190,667</td> <td>9,625,443</td>
                             </tr>
                         </tbody>
                     </table>
