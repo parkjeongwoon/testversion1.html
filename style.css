@@ -83,7 +83,11 @@
     .layout .layout-right .tableyear {
         font-size: 30px;
         font-weight: bold;
-        padding-top: 10px;
+    }
+    .layout .layout-right .tableyearBottom {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 20px;
     }
     .layout .layout-right .table100n {
         border-collapse: collapse;
