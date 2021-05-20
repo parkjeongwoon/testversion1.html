@@ -71,19 +71,17 @@
     .layout .layout-right .noteWidth1 {
         width: 760px;
         margin-left: auto; margin-right: auto;
+        text-align: left;
         font-size: 14px;
     }
     .layout .layout-right .noteWidth2 {
         width: 675px;
         margin-left: auto; margin-right: auto;
+        text-align: left;
         font-size: 14px;
     }
     .layout .layout-right .noteTop {
         margin-top: 5px;
-        text-align: left;
-    }
-    .layout .layout-right .note {
-        text-align: left;
     }
     .layout .layout-right .tableyear {
         font-size: 30px;
