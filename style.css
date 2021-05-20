@@ -62,24 +62,29 @@
     .layout .layout-right {
         text-align: center;
     }
-    .layout .layout-right .noteWidth1 {
-        width: 760px;
-        margin-left: auto; margin-right: auto;
-    }
-    .layout .layout-right .noteWidth2 {
-        width: 675px;
-        margin-left: auto; margin-right: auto;
-    }
-    .layout .layout-right .note {
-        margin-top: 5px;
-        text-align: left;
-    }
     .layout .layout-right .index-p1 {
         display: block;
         margin-left: auto; margin-right: auto;
         width: 80%; max-width: 600px;
     }
     /* layout-right-100n */
+    .layout .layout-right .noteWidth1 {
+        width: 760px;
+        margin-left: auto; margin-right: auto;
+        font-size: 16px;
+    }
+    .layout .layout-right .noteWidth2 {
+        width: 675px;
+        margin-left: auto; margin-right: auto;
+        font-size: 16px;
+    }
+    .layout .layout-right .noteTop {
+        margin-top: 5px;
+        text-align: left;
+    }
+    .layout .layout-right .note {
+        text-align: left;
+    }
     .layout .layout-right .tableyear {
         font-size: 30px;
         font-weight: bold;
@@ -220,6 +225,12 @@
     }
     /* layout-right */
     /* layout-right-100n */
+    .layout .layout-right .noteWidth1 {
+        font-size: 12px;
+    }
+    .layout .layout-right .noteWidth2 {
+        font-size: 12px;
+    }
     .layout .layout-right .noteWidth1 {
         width: 98%;
     }
