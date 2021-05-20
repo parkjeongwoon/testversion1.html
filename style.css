@@ -1,0 +1,264 @@
+    body {
+        font-family: sans-serif;
+        font-size: 19px;
+        margin: 0;
+    }
+    /* body-head */
+    .body-head {
+        background-color: lightskyblue;
+        text-align: center;
+        padding: 20px;
+    }
+    .body-head .title-link {
+        font-size: 50px;
+        text-decoration: none;
+        color: white;
+    }
+    .body-head .mail-link {
+        text-decoration: none;
+        background-color: tomato;
+        color: white;
+    }
+    /* layout */
+    .layout {
+        display: grid;
+        grid-template-columns: 270px 1fr;
+        margin-left: 100px; margin-right: 100px;
+        border: 1px solid gainsboro;
+    }
+    /* layout-left */
+    .layout .layout-left {
+        border-right: 1px solid gainsboro;
+    }
+    .layout .layout-left .layout-left-head {
+        text-align: center;
+        background-color: lightcyan;
+        margin-bottom: 5px;
+    }
+    .layout .layout-left .list-title {
+        padding-left: 5px;
+    }
+    .layout .layout-left .list {
+        list-style: none;
+        padding : 0;
+        margin-top: 5px; margin-bottom: 5px;
+    }
+    .layout .layout-left .list .list-link {
+        text-decoration: none;
+        color: black;
+        padding-left: 5px;
+    }
+    .layout .layout-left .list a:hover {
+        display: block;
+        background-color: lightcyan;
+        transition: ease 1s;
+    }
+    .layout .layout-left #active {
+        display: block;
+        background-color: lightblue;
+        font-weight: bold;
+    }
+    /* layout-right */
+    .layout .layout-right {
+        text-align: center;
+    }
+    .layout .layout-right .index-p1 {
+        display: block;
+        margin-left: auto; margin-right: auto;
+        width: 80%; max-width: 600px;
+    }
+    /* layout-right-100n */
+    .layout .layout-right .noteWidth1 {
+        width: 760px;
+        margin-left: auto; margin-right: auto;
+        font-size: 14px;
+    }
+    .layout .layout-right .noteWidth2 {
+        width: 675px;
+        margin-left: auto; margin-right: auto;
+        font-size: 14px;
+    }
+    .layout .layout-right .noteTop {
+        margin-top: 5px;
+        text-align: left;
+    }
+    .layout .layout-right .note {
+        text-align: left;
+    }
+    .layout .layout-right .tableyear {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .layout .layout-right .tableyearBottom {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .layout .layout-right .table100n {
+        border-collapse: collapse;
+        margin-left: auto; margin-right: auto;
+        line-height: 1.3;
+        display: inline;
+        font-size: 17px;
+    }
+    .layout .layout-right .table100n caption {
+        font-weight: bold;
+        padding-top: 15px; padding-bottom: 5px;
+    }
+    .layout .layout-right .table100n thead th {
+        border: 1px solid gray;
+        padding: 7px;
+        background-color: lightblue;
+        font-size: 15px;
+    }
+    .layout .layout-right .table100n thead #strong {
+        font-weight: bold;
+        text-decoration: underline; text-underline-position: under;
+        font-size: 17px;
+    }
+    .layout .layout-right .table100n tbody th {
+        border: 1px solid gray;
+        padding: 7px;
+        background-color: lightcyan;
+        width: 70px;
+        font-size: 15px;
+    }
+    .layout .layout-right .table100n tbody td {
+        border: 1px solid gray;
+        padding: 7px;
+        text-align: right;
+        width: 180px;
+    }
+    /* layout-right-200n */
+    .test200n {
+        background-color: lightcyan;
+        margin-left: auto; margin-right: auto;
+        width: 70%;
+        padding-top: 193px; padding-bottom: 150px;
+    }
+    .layout .layout-right #textbox {
+        border-color: gainsboro;
+        text-align: right;
+        padding-right: 5px;
+        font-size: 25px;
+    }
+    .layout .layout-right #btn {
+        border: none;
+        padding: 10px;
+        margin-top: 10px;
+        width: 100px;
+        font-size: 20px;
+        background-color: lightblue;
+    }
+    .layout .layout-right .ad01 {
+        width: 300px;
+        margin-left: auto; margin-right: auto;
+        padding-top: 5px;
+    }
+    .layout .layout-right .ad02 {
+        width: 300px;
+        margin-left: auto; margin-right: auto;
+    }
+    .layout .layout-right .ad03 {
+        width: 250px;
+        margin-left: auto; margin-right: auto;
+    }
+    .layout .layout-right .ad04 {
+        width: 250px;
+        margin-left: auto; margin-right: auto;
+    }
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* layout */
+    .layout {
+        margin: 0;
+    }
+    /* layout-right */
+    /* layout-right-100n */
+    .layout .layout-right .noteWidth1 {
+        width: 700px;
+    }
+    .layout .layout-right .noteWidth2 {
+        width: 610px;
+    }
+    .layout .layout-right .table100n tbody td {
+        width: 160px;
+    }
+}
+@media (min-width: 768px) and (max-width:1024px) {
+    /* layout */
+    .layout {
+        display: block;
+        margin: 0;
+        border: none;
+    }
+    /* layout-left */
+    .layout .layout-left {
+        border-right: none;
+        border-bottom: 1px solid gainsboro;
+    }
+    /* layout-right */
+    /* layout-right-100n */
+    .layout .layout-right .noteWidth1 {
+        width: 700px;
+    }
+    .layout .layout-right .noteWidth2 {
+        width: 600px;
+    }
+    .layout .layout-right .table100n tbody td {
+        width: 160px;
+    }
+}
+@media(max-width:767px) {
+    body {
+        font-size: 15px;
+    }
+    /* layout */
+    .layout {
+        display: block;
+        margin: 0;
+        border: none;
+    }
+    /* layout-left */
+    .layout .layout-left {
+        border-right: none;
+        border-bottom: 1px solid gainsboro;
+    }
+    /* layout-right */
+    /* layout-right-100n */
+    .layout .layout-right .noteWidth1 {
+        width: 98%;
+        font-size: 10px;
+    }
+    .layout .layout-right .noteWidth2 {
+        width: 98%;
+        font-size: 10px;
+    }
+    .layout .layout-right .table100n {
+        display: block;
+        width: 98%;
+        font-size: 12px;
+    }
+    .layout .layout-right .table100n thead th {
+        padding: 3px;
+        font-size: 10px;
+    }
+    .layout .layout-right .table100n thead #strong {
+        font-weight: bold;
+        text-decoration: underline; text-underline-position: under;
+        font-size: 12px;
+    }
+    .layout .layout-right .table100n tbody th {
+        padding: 0;
+        font-size: 10px;
+        min-width: 40px;
+    }
+    .layout .layout-right .table100n tbody td {
+        padding: 3px;
+    }
+    /* layout-right-200n */
+    .test200n {
+        background-color: none;
+        width: 100%;
+        padding-top: 93px; padding-bottom: 50px;
+    }
+}
