@@ -71,12 +71,12 @@
     .layout .layout-right .noteWidth1 {
         width: 760px;
         margin-left: auto; margin-right: auto;
-        font-size: 16px;
+        font-size: 14px;
     }
     .layout .layout-right .noteWidth2 {
         width: 675px;
         margin-left: auto; margin-right: auto;
-        font-size: 16px;
+        font-size: 14px;
     }
     .layout .layout-right .noteTop {
         margin-top: 5px;
@@ -226,16 +226,12 @@
     /* layout-right */
     /* layout-right-100n */
     .layout .layout-right .noteWidth1 {
-        font-size: 12px;
-    }
-    .layout .layout-right .noteWidth2 {
-        font-size: 12px;
-    }
-    .layout .layout-right .noteWidth1 {
         width: 98%;
+        font-size: 10px;
     }
     .layout .layout-right .noteWidth2 {
         width: 98%;
+        font-size: 10px;
     }
     .layout .layout-right .table100n {
         display: block;
